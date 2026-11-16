@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let angka = -5;
+
+        if (angka > 0) {
+                console.log(`${angka} adalah bilangan POSITIF`);
+        } else if (angka < 0) {
+                console.log(`${angka} adalah bilangan NEGATIF`); // Output ini yang dijalankan
+        } else {
+             console.log("Angka tersebut adalah NOL");
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = 15;
+        let b = 42;
+        let c = 28;
+
+        if (a >= b && a >= c) {
+                    console.log(`Bilangan terbesar adalah ${a}`);
+        } else if (b >= a && b >= c) {
+                    console.log(`Bilangan terbesar adalah ${b}`); // Output: 42
+        } else {
+                    console.log(`Bilangan terbesar adalah ${c}`);
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nomorHari = 3;
+        let namaHari;
+
+        switch (nomorHari) {
+                case 1:
+                namaHari = "Senin";
+                break;
+                case 2:
+                namaHari = "Selasa";
+                break;
+                case 3:
+                namaHari = "Rabu"; // Output: Rabu
+                break;
+                case 4:
+                namaHari = "Kamis";
+                break;
+                case 5:
+                namaHari = "Jumat";
+                break;
+                case 6:
+                namaHari = "Sabtu";
+                break;
+                case 7:
+                namaHari = "Minggu";
+                break;
+                default:
+                namaHari = "Nomor hari tidak valid (masukkan angka 1-7)";
+            }
+
+                console.log(namaHari);
+    </script>
+</body>
+</html>
